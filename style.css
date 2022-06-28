@@ -1,9 +1,17 @@
 * {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color:#1F2937;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 h3 {
@@ -15,7 +23,10 @@ ul {
     list-style-type: none;
     font-size: 18px;
     margin: 0;
-    padding: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
 }
 
 a {
@@ -38,8 +49,37 @@ button {
     color: #E5E7EB;
     background-color: #3882F6;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 8px;
     padding: 8px 28px;
     border: none;
+    width: 125px;
+}
+
+.main {
+    width: 500px;
+    height: 200px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    margin-bottom: 100px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.lower-left {
+    overflow-wrap: normal;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
