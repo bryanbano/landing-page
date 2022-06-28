@@ -83,3 +83,24 @@ button {
     align-items: flex-start;
     gap: 12px;
 }
+
+.information {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.wine {
+    height: 175px;
+    width: 175px;
+    border-radius: 8px;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
