@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-header {
+header,
+footer {
     background-color:#1F2937;
 }
 
@@ -149,4 +150,45 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: right;
+}
+
+.action {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.eight {
+    background-color: #3882F6;
+    max-width: 925px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+#fourth {
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+#final {
+    color: #F9FAF8
+}
+
+.nine {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #F9FAF8;
 }
